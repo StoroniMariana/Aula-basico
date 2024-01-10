@@ -76,18 +76,54 @@ main {
     font-size: 12px;
 }
 
-aside {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-}
 .link {
     font-size: 20px;
     margin-left: 75px;
     justify-content: center;
     align-items: center;
     text-align: justify;
+}
+
+aside {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+aside figure {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+aside h1 {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    
+}
+
+
+aside figure img {
+    width: 100%;
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 100px;
+    margin-inline-start: 80px;
+    margin-bottom: 80px;
+    
+    
+}
+figure a:hover {
+    transform:scale(1.5);
+    transition: 0.3s;
 }
 
 footer {

@@ -28,7 +28,6 @@ main {
 
 .box h1 {
     font-size: 28px;
-
     justify-content: center;
     display: flex;
     margin-bottom: 5px;
@@ -43,7 +42,12 @@ main {
     font-size: 18px;
     text-align: justify;
     margin: 20px 20px 20px 20px;
-
-
 }
+
+hr {
+    border: 1px solid blue; 
+    margin: 20px 0; 
+}
+
+
 
