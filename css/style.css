@@ -39,9 +39,10 @@ main {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    background-color: #80D0C7;
 }
 .container {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #80D0C7;
@@ -52,7 +53,6 @@ main {
     width: 96%;
     height: 300px;
     display: flex; 
-
 }
 
 .container h1 {
@@ -86,43 +86,39 @@ main {
 
 aside {
     width: 100%;
+    height: 76vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 aside figure {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 aside h1 {
     width: 100%;
     font-size: 20px;
-    display: flex;
-    justify-items: center;
+    text-align: center;
     margin-bottom: 100px;
-    margin-left: 20px;
-    
+    margin-top: 20px;
 }
 
-
 aside figure img {
-    width: 100%;
+    align-content: space-around;
     font-size: 10px;
     width: 50px;
     height: 50px;
-    display: flex;
     border-radius: 100px;
-    margin-inline-start: 80px;
+    margin: 60px;
     margin-bottom: 80px;
-    
-    
 }
+
 figure a:hover {
-    transform:scale(1.5);
+    transform:scale(1.2);
     transition: 0.3s;
 }
 
