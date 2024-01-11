@@ -86,7 +86,7 @@ main {
 
 aside {
     width: 100%;
-    height: 76vw;
+    height: 66vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -103,18 +103,16 @@ aside h1 {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
     margin-top: 20px;
 }
 
 aside figure img {
     align-content: space-around;
     font-size: 10px;
-    width: 50px;
-    height: 50px;
     border-radius: 100px;
     margin: 60px;
-    margin-bottom: 80px;
+
 }
 
 figure a:hover {
